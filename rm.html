@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/fc2.css">
+
+</head>
+<body>
+   
+<div class="container">
+
+   <h1 class="heading">RM Games On Mission Complete | StrongMan</h1>
+
+   <input type="text" placeholder="search..." id="search-box">
+
+   <div class="image-container">
+     
+      <div class="image" data-title="ai">
+         <img src="00000" alt="">
+         <h3>00000</h3>
+                                    <div class="product__item__text">
+                                        <p>
+                                            <a href="0000">sextb</a>
+                                           <br>Duration Strongman = 0%</p>
+									</div>
+      </div> 
+      <div class="image" data-title="ai">
+         <img src="00000" alt="">
+         <h3>00000</h3>
+                                    <div class="product__item__text">
+                                        <p>
+                                            <a href="0000">sextb</a>
+                                           <br>Duration Strongman = 0%</p>
+									</div>
+      </div> 
+      <div class="image" data-title="ai">
+         <img src="00000" alt="">
+         <h3>00000</h3>
+                                    <div class="product__item__text">
+                                        <p>
+                                            <a href="0000">sextb</a>
+                                           <br>Duration Strongman = 0%</p>
+									</div>
+      </div> 
+      <div class="image" data-title="ai">
+         <img src="00000" alt="">
+         <h3>00000</h3>
+                                    <div class="product__item__text">
+                                        <p>
+                                            <a href="0000">sextb</a>
+                                           <br>Duration Strongman = 0%</p>
+									</div>
+      </div> 
+      <div class="image" data-title="ai">
+         <img src="00000" alt="">
+         <h3>00000</h3>
+                                    <div class="product__item__text">
+                                        <p>
+                                            <a href="0000">sextb</a>
+                                           <br>Duration Strongman = 0%</p>
+									</div>
+      </div> 
+      <div class="image" data-title="ai">
+         <img src="00000" alt="">
+         <h3>00000</h3>
+                                    <div class="product__item__text">
+                                        <p>
+                                            <a href="0000">sextb</a>
+                                           <br>Duration Strongman = 0%</p>
+									</div>
+      </div> 
+      <div class="image" data-title="ai">
+         <img src="00000" alt="">
+         <h3>00000</h3>
+                                    <div class="product__item__text">
+                                        <p>
+                                            <a href="0000">sextb</a>
+                                           <br>Duration Strongman = 0%</p>
+									</div>
+      </div> 
+      <div class="image" data-title="ai">
+         <img src="https://pics.dmm.co.jp/digital/video/1aiav00001/1aiav00001jp-1.jpg" alt="">
+         <h3>AVAI-001-RM Mirai Sakino</h3>
+                                    <div class="product__item__text">
+                                        <p>
+                                            <a href="https://sextb.xyz/aiav-001-rm">sextb</a>
+                                           <br>Duration Strongman = 0%</p>
+									</div>
+      </div> 
+
+   </div>
+
+</div>
+
+<center><a href="fc2-1.html"><button class="button button1">Next Page</button></a></center>
+<br>
+<br>
+<br>
+<br>
+
+<script>
+
+let searchBox = document.querySelector('#search-box');
+let images = document.querySelectorAll('.container .image-container .image');
+
+searchBox.oninput = () =>{
+   images.forEach(hide => hide.style.display = 'none');
+   let value = searchBox.value;
+   images.forEach(filter =>{
+      let title = filter.getAttribute('data-title');
+      if(value == title){
+         filter.style.display = 'block';
+      }
+      if(searchBox.value == ''){
+         filter.style.display = 'block';
+      }
+   });
+};
+
+</script>
+
+</body>
+</html>
