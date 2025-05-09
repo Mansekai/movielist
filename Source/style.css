@@ -130,7 +130,7 @@ td img {
     width: 36px;
     height: 36px;
     margin-right: .5rem;
-    border-radius: 50%;
+    border-radius: 0%;
 
     vertical-align: middle;
 }
